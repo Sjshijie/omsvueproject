@@ -1,0 +1,292 @@
+{
+    "code": 0,
+    "msg": "操作成功",
+    "success": true,
+    "data": [
+        {
+            "resID": 1,
+            "resName": "基础数据管理",
+            "resUrl": "/mdm",
+            "resType": "LINK",
+            "resLevel": "FIRST",
+            "parentID": null,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1514959899761,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": null,
+            "delStatus": "NO"
+        },
+        {
+            "resID": 2,
+            "resName": "物料中心管理",
+            "resUrl": "/mdm/wuliao",
+            "resType": "LINK",
+            "resLevel": "SECOND",
+            "parentID": 1,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1514959899761,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": null,
+            "delStatus": "NO"
+        },
+        {
+            "resID": 3,
+            "resName": "仓库管理",
+            "resUrl": "/mdm/cangku",
+            "resType": "LINK",
+            "resLevel": "SECOND",
+            "parentID": 1,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1514959899761,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": null,
+            "delStatus": "NO"
+        },
+        {
+            "resID": 4,
+            "resName": "货主管理",
+            "resUrl": "/mdm/huozhu",
+            "resType": "LINK",
+            "resLevel": "SECOND",
+            "parentID": 1,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1514959899761,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": null,
+            "delStatus": "NO"
+        },
+        {
+            "resID": 5,
+            "resName": "添加",
+            "resUrl": "/mdm/wuliao/add",
+            "resType": "BUTTON",
+            "resLevel": "THIRDLY",
+            "parentID": 2,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1514959899761,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": "add",
+            "delStatus": "NO"
+        },
+        {
+            "resID": 6,
+            "resName": "修改",
+            "resUrl": "/mdm/wuliao/update",
+            "resType": "BUTTON",
+            "resLevel": "THIRDLY",
+            "parentID": 2,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1514959899761,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": "update",
+            "delStatus": "NO"
+        },
+        {
+            "resID": 7,
+            "resName": "禁用",
+            "resUrl": "/mdm/wuliao/disable",
+            "resType": "BUTTON",
+            "resLevel": "THIRDLY",
+            "parentID": 2,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1514959899761,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": "disable",
+            "delStatus": "NO"
+        },
+        {
+            "resID": 8,
+            "resName": "启用",
+            "resUrl": "/mdm/wuliao/enable",
+            "resType": "BUTTON",
+            "resLevel": "THIRDLY",
+            "parentID": 2,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1514959899761,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": "enable",
+            "delStatus": "NO"
+        },
+        {
+            "resID": 9,
+            "resName": "添加",
+            "resUrl": "/mdm/cangku/add",
+            "resType": "BUTTON",
+            "resLevel": "THIRDLY",
+            "parentID": 3,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1514959899761,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": "add",
+            "delStatus": "NO"
+        },
+        {
+            "resID": 11,
+            "resName": "删除",
+            "resUrl": "/mdm/cangku/delete",
+            "resType": "BUTTON",
+            "resLevel": "THIRDLY",
+            "parentID": 3,
+            "interceptStatus": "NO",
+            "interceptUrl": "",
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1515478777158,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": "delete",
+            "delStatus": "NO"
+        },
+        {
+            "resID": 12,
+            "resName": "启用",
+            "resUrl": "/mdm/cangku/enable",
+            "resType": "BUTTON",
+            "resLevel": "THIRDLY",
+            "parentID": 3,
+            "interceptStatus": "NO",
+            "interceptUrl": "",
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1515478841093,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": "enable",
+            "delStatus": "NO"
+        },
+        {
+            "resID": 13,
+            "resName": "订单管理",
+            "resUrl": "/order",
+            "resType": "LINK",
+            "resLevel": "FIRST",
+            "parentID": null,
+            "interceptStatus": "NO",
+            "interceptUrl": null,
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1515478841093,
+            "updater": null,
+            "updateTime": null,
+            "buttonID": null,
+            "delStatus": "NO"
+        },
+        {
+            "resID": 14,
+            "resName": "出库管理1",
+            "resUrl": "/order/out1",
+            "resType": "BUTTON",
+            "resLevel": "THIRDLY",
+            "parentID": 13,
+            "interceptStatus": "YES",
+            "interceptUrl": "/",
+            "status": "YES",
+            "creater": 1,
+            "createTime": 1515478841093,
+            "updater": 1,
+            "updateTime": null,
+            "buttonID": "update",
+            "delStatus": "NO"
+        }
+    ],
+    "enumVal": {
+        "resLevel": [
+            {
+                "code": 1,
+                "des": "一级",
+                "name": "FIRST",
+                "selected": true
+            },
+            {
+                "code": 2,
+                "des": "二级",
+                "name": "SECOND",
+                "selected": false
+            },
+            {
+                "code": 3,
+                "des": "三级",
+                "name": "THIRDLY",
+                "selected": false
+            }
+        ],
+        "interceptStatus": [
+            {
+                "code": 1,
+                "des": "拦截",
+                "name": "YES",
+                "selected": true
+            },
+            {
+                "code": 0,
+                "des": "不拦截",
+                "name": "NO",
+                "selected": false
+            }
+        ],
+        "resType": [
+            {
+                "code": 1,
+                "des": "菜单",
+                "name": "LINK",
+                "selected": true
+            },
+            {
+                "code": 0,
+                "des": "按钮",
+                "name": "BUTTON",
+                "selected": false
+            }
+        ],
+        "status": [
+            {
+                "code": 1,
+                "des": "已启用",
+                "name": "YES",
+                "selected": true
+            },
+            {
+                "code": 0,
+                "des": "已禁用",
+                "name": "NO",
+                "selected": false
+            }
+        ]
+    }
+}
